@@ -1,0 +1,43 @@
+.admin h1,
+p {
+    text-align: center;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+    /* color: white; */
+}
+
+.pages a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    width: 100%;
+}
+
+.pages a:hover {
+    background-color: grey;
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.tools a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    width: 100%;
+}
+
+.tools a:hover{
+    background-color: grey;
+}
+
+mat-icon{
+    vertical-align: middle;
+    padding: 5px;
+}

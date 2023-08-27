@@ -1,0 +1,26 @@
+
+
+Parent child component communication
+-------------------------------------
+
+1.Child to parent communication - @Output decorator
+child - header
+parent - app.component
+
+
+2.paretn to child communication - @Input decorator
+parent - main-content component
+child - card component
+
+
+
+3.Generate user defined event
+  -emit()
+  -Event Emitter class - used to generate user defined events 
+
+ 
+4.Attribute directives
+Based on class property we can apply stle to html
+
+    i)InBuild attribute directives - ngClass
+    ii)User defined attribute directives
